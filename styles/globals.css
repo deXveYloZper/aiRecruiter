@@ -1,0 +1,12 @@
+/* styles/globals.css */
+
+/* This file contains global styles and is imported in _app.tsx */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add additional global styles below */
+body {
+  /* Example global style */
+  font-family: 'Roboto', sans-serif;
+}
