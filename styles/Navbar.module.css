@@ -1,0 +1,25 @@
+/* Navbar.module.css */
+.hover\:glow:hover {
+    color: #fff; /* Or another color for the glow effect */
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7); /* This creates the glow */
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  }
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* or any other RGBA value */
+    backdrop-filter: blur(5px);
+  }
+  
+.brandName {
+    font-size: 1.25rem; /* 20px */
+    font-weight: bold;
+    color: white;
+    /* Add hover effect if needed */
+  }
+  
+.navItem {
+    margin-left: 20px;
+    color: white;
+    /* Add hover effect if needed */
+  }
+  
